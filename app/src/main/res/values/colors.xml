@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_bg">#FBF9E4</color>
+    <color name="number_pressed">#D6D3AA</color>
+</resources>
