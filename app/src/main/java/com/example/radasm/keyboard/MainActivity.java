@@ -31,9 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
-
         dialog=new AlertDialog.Builder(MainActivity.this).setView(keyboard).create();
-
         Window window = dialog.getWindow();
         window.setGravity(Gravity.BOTTOM);  //此处可以设置dialog显示的位置
         window.setWindowAnimations(R.style.mystyle);  //添加动画
